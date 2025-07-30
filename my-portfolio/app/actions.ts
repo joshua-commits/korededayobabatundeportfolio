@@ -9,7 +9,7 @@ const contactFormSchema = z.object({
   message: z.string().min(10, "Message must be at least 10 characters").max(1000),
 })
 
-const resend = new Resend(process.env.RESEND_API_KEY || 're_6BYgNafm_BxhW43QYV34Suwkx6QPrNV7y');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function submitContactForm(formData: FormData) {
   // Simulate network delay
