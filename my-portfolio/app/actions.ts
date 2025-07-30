@@ -25,8 +25,8 @@ export async function submitContactForm(formData: FormData) {
     const validatedData = contactFormSchema.parse(rawData)
 
     resend.emails.send({
-    from: process.env.FROM_EMAIL || 'onboarding@resend.dev',
-    to: process.env.TO_EMAIL || 'oluwakorede.dayobabatunde@gmail.com',
+    from: process.env.FROM_EMAIL!,
+    to: process.env.TO_EMAIL!,
     subject: 'Message from ' + validatedData.name,
     html: '<p>Name: ' + validatedData.name + '</p><p>Email: ' + validatedData.email + '</p><p>Message: ' + validatedData.message + '</p>'
     });
