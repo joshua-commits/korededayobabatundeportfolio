@@ -19,7 +19,7 @@ const socialLinks = [
     label: "LinkedIn",
   },
   {
-    href: "oluwakorededayo.babatunde@gmail.com",
+    href: "mailto:oluwakorededayo.babatunde@gmail.com",
     icon: Mail,
     label: "Email",
   },
