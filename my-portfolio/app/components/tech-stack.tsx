@@ -10,7 +10,7 @@ interface TechCategory {
 const technologies: readonly TechCategory[] = [
   {
     category: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "TailwindCSS"],
+    skills: ["React", "Next.js", "TypeScript", "TailwindCSS", "Flask"],
     color: "default",
   },
   {
@@ -20,12 +20,12 @@ const technologies: readonly TechCategory[] = [
   },
   {
     category: "DevOps & Cloud",
-    skills: ["Docker", "AWS", "Vercel", "CI/CD", "Git", "Linux", "Terraform"],
+    skills: ["Docker", "Azure", "AWS", "Vercel", "CI/CD", "Git", "Linux", "Terraform"],
     color: "outline",
   },
   {
     category: "Tools & Testing",
-    skills: ["VS Code", "JUnit", "Figma", "Playwright", "FRET", "JIRA", "Confluence"],
+    skills: ["VS Code", "PyTest", "JUnit", "Figma", "Playwright", "FRET", "JIRA", "Confluence"],
     color: "destructive",
   },
 ] as const

@@ -27,6 +27,16 @@ const socialLinks = [
 
 const projects = [
   {
+    title: "DevOps Project",
+    description: "DevOps project using Azure and Terraform to deploy a web app.",
+    image: "/devops.png?height=400&width=600",
+    link: "https://github.com/joshua-commits/DevOpsProject",
+    liveLink: "https",
+    tags: ["Azure", "Terraform", "Python Flask", "Docker", "Bash"],
+  },
+  
+
+  {
     title: "Next.js + Tailwind Portfolio",
     description: "Static site built with Next.js to showcase my work and career goals.",
     image: "/portfolio.png?height=400&width=600",
@@ -35,14 +45,6 @@ const projects = [
     tags: ["Next.js", "TailwindCSS", "TypeScript", "Vercel"],
   },
   
-
-  // {
-  //   title: "IBM Security Learning Game",
-  //   description: "A real-time security learning game built with Godot, GDScript",
-  //   image: "/placeholder.svg?height=400&width=600",
-  //   link: "https://github.com/korededayobabatunde",
-  //   tags: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
-  // },
   // {
   //   title: "AI Chat Interface",
   //   description: "An AI-powered chat interface with natural language processing capabilities.",

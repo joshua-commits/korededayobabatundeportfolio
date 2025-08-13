@@ -37,7 +37,7 @@ export default function ProjectCard({ title, description, image, link, liveLink,
           ))}
         </div>
       </CardContent>
-      <CardFooter className="p-6 pt-0 flex gap-2">
+      <CardFooter className="p-6 pt-0 flex justify-end gap-2">
         <Link
           href={link}
           target="_blank"
@@ -46,15 +46,6 @@ export default function ProjectCard({ title, description, image, link, liveLink,
         >
           <Github className="h-4 w-4" />
           View Code
-        </Link>
-        <Link
-          href={liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-sm hover:underline underline-offset-4 transition-colors ml-auto"
-        >
-          <ExternalLink className="h-4 w-4" />
-          Live Demo
         </Link>
       </CardFooter>
     </Card>
