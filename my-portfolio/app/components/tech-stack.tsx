@@ -15,7 +15,7 @@ const technologies: readonly TechCategory[] = [
   },
   {
     category: "Backend",
-    skills: ["Node.js", "DynamoDB", "Python", "RESTful APIs", "GraphQL", "PostgreSQL"],
+    skills: ["Node.js", "DynamoDB", "Python", "RESTful APIs", "GraphQL", "PostgreSQL", "SqlAlchemy"],
     color: "secondary",
   },
   {
@@ -25,7 +25,7 @@ const technologies: readonly TechCategory[] = [
   },
   {
     category: "Tools & Testing",
-    skills: ["VS Code", "PyTest", "JUnit", "Figma", "Playwright", "FRET", "JIRA", "Confluence"],
+    skills: ["VS Code", "FastAPI", "PyTest", "JUnit", "Figma", "Playwright", "FRET", "JIRA", "Confluence"],
     color: "destructive",
   },
 ] as const

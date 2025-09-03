@@ -26,6 +26,15 @@ const socialLinks = [
 ] as const
 
 const projects = [
+   {
+    title: "Crypto Price Tracker",
+    description: "Track real-time cryptocurrency prices and visualise using Power BI",
+    image: "/crypto.png?height=400&width=600",
+    link: "https://github.com/joshua-commits/CryptoPriceTracker",
+    liveLink: "https",
+    tags: ["FastAPI", "PostgreSQL", "Power BI", "Docker", "SqlAlchemy"],
+  },
+
   {
     title: "DevOps Project",
     description: "DevOps project using Azure and Terraform to deploy a web app.",
@@ -45,13 +54,6 @@ const projects = [
     tags: ["Next.js", "TailwindCSS", "TypeScript", "Vercel"],
   },
   
-  // {
-  //   title: "AI Chat Interface",
-  //   description: "An AI-powered chat interface with natural language processing capabilities.",
-  //   image: "/placeholder.svg?height=400&width=600",
-  //   link: "https://github.com/korededayobabatunde",
-  //   tags: ["OpenAI", "Next.js", "TailwindCSS", "Vercel AI SDK"],
-  // },
 ] as const
 
 export default function HomePage() {
